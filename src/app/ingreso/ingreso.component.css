@@ -1,0 +1,96 @@
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenedor-insertar{
+    text-align: center;
+
+}
+
+.row {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center!important;
+    position: inherit;
+}
+.main-contact {
+    padding-bottom: 3.75rem!important;
+    padding-top: 50px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #dee2e6!important;
+}
+
+section {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+    font-family: OswaldExtraLight;
+}
+
+.title.center-text:after, .center-text .title:after {
+    margin: 1rem auto;
+}
+
+.title:after {
+    content: "";
+    display: block;
+    max-width: 3rem;
+    height: 2px;
+    background-color: blue;
+    margin: 1rem auto 1rem 0;
+}
+
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+.center-text {
+    text-align: center!important;
+}
+
+
+.button-contact {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+p{
+    font-size: 1.2rem;
+}
+
+div {
+    display: block;
+}

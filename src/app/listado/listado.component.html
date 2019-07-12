@@ -1,0 +1,21 @@
+<div class="container-listado">
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Placa</th>
+        <th scope="col">Tipo de Vehiculo</th>
+        <th scope="col">Fecha de Ingreso</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let parqueo of parqueos; let i index">
+        <th scope="row">{{parqueo.vehiculo.placa}}</th>
+        <td>{{parqueo.vehiculo.tipo}}</td>
+        <td>{{parqueo.fechaInicio}}</td>
+        <td>
+            <button class="button-contact">Retirar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
