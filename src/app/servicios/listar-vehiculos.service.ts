@@ -1,4 +1,4 @@
-import { Inject, Injectable, Optional } from '@angular/core';
+import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpParams,
          HttpResponse, HttpEvent }  from '@angular/common/http';
 
@@ -13,14 +13,14 @@ export class ListarVehiculosService {
 
   constructor(public httpClient : HttpClient) { }
 
-  getVehiculos(): any {
+  obtenerVehiculos(): any {
     const httpOptions = {
       headers: new HttpHeaders({
         'Content-Type': 'application/json',
         'Accept' : 'application/json'
       })
     };
-    return this.httpClient.get(this.urlListarVehiculos);
+    return this.httpClient.get(this.urlListarVehiculos, httpOptions);
   }
 
 }

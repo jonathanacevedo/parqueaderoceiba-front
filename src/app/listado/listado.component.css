@@ -2,8 +2,21 @@
     width: 100%;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 20px;
+    margin-top: 50px;
     font-family: OswaldExtraLight;
+}
+
+.title.center-text:after, .center-text .title:after {
+    margin: 1rem auto;
+}
+
+.title:after {
+    content: "";
+    display: block;
+    max-width: 3rem;
+    height: 2px;
+    background-color: #4ee44e;
+    margin: 1rem auto 1rem 0;
 }
 
 .table {

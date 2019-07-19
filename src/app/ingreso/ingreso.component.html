@@ -9,22 +9,22 @@
                             <form>
                                 <div class="row">
                                     <div class="col-sm">
-                                        <input type="text" class="form-control" placeholder="Placa">
+                                        <input id="placa" type="text" [(ngModel)]="placaVehiculo" [ngModelOptions]="{standalone: true}" class="form-control" placeholder="Placa">
                                     </div>
                                     <div class="form-group col-md-3">
-                                        <select id="inputState" class="form-control">
+                                        <select id="inputState" [(ngModel)]="tipoVehiculo" [ngModelOptions]="{standalone: true}" class="form-control">
                                             <option disabled selected>Tipo</option>
                                             <option>Carro</option>
                                             <option>Moto</option>
                                         </select>
                                     </div>
                                     <div class="col">
-                                        <input type="text" class="form-control" placeholder="Cilindraje">
+                                        <input type="text" id="cilindraje_input" [(ngModel)]="cilindrajeVehiculo" [ngModelOptions]="{standalone: true}" [attr.disabled]="tipoVehiculo=='Carro' ? '' : null" class="form-control" placeholder="Cilindraje">
                                     </div>
                                 </div>
                             </form>
-                            <button class="button-contact">Ingresar Vehiculo</button>
-                            <button class="button-contact">Limpiar</button>
+                            <button class="button-contact" (click)="ingresarVehiculo()">Ingresar Vehiculo</button>
+                            <button class="button-contact" (click)="limpiarCampos()">Limpiar</button>
                         </div>
                     </div>
                 </div>

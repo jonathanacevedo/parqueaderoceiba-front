@@ -1,0 +1,12 @@
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+    font-family: OswaldExtraLight;
+}
+
+.title.center-text:after, .center-text .title:after {
+    margin: 1rem auto;
+    font-family: OswaldExtraLight;
+}

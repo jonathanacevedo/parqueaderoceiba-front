@@ -16,6 +16,7 @@
     text-align: center!important;
     position: inherit;
 }
+
 .main-contact {
     padding-bottom: 3.75rem!important;
     padding-top: 50px;
@@ -31,8 +32,6 @@ section {
 
 .container {
     width: 100%;
-    /* padding-right: 15px;
-    padding-left: 15px; */
     margin-right: auto;
     margin-left: auto;
     font-family: OswaldExtraLight;
@@ -47,7 +46,7 @@ section {
     display: block;
     max-width: 3rem;
     height: 2px;
-    background-color: blue;
+    background-color: #4ee44e;
     margin: 1rem auto 1rem 0;
 }
 
@@ -61,21 +60,13 @@ section {
     margin-left: -15px;
 }
 
-h2{
-    font-size: 2rem;
-}
-
-h4{
-    font-size: 1.5rem;
-}
-
 .center-text {
     text-align: center!important;
 }
 
 
 .button-contact {
-    background-color: #008CBA;
+    background-color: #32cd32;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -85,10 +76,6 @@ h4{
     font-size: 16px;
     margin: 10px;
     cursor: pointer;
-}
-
-p{
-    font-size: 1.2rem;
 }
 
 div {
